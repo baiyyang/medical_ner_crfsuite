@@ -1,0 +1,2 @@
+# medical_ner_crfsuite
+基于条件随机场的医疗电子病例的命名实体识别
