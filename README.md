@@ -6,7 +6,7 @@ medical_ner_crfsuite是[CCKS2017全国知识图谱与语义大会](http://www.cc
 
 ## METHOD
 1. 数据预处理。调用reader.py中的text2nerformat方法，将data中的数据集转换成NER任务中常用的数据格式
-2. 训练模型。通过crf_unit.py，训练CRF模型，目前CRF中的特征包括上下两个词语及其词性，分词和词性标注调用(jieba)[https://github.com/fxsjy/jieba]
+2. 训练模型。通过crf_unit.py，训练CRF模型，目前CRF中的特征包括上下两个词语及其词性，分词和词性标注调用[jieba](https://github.com/fxsjy/jieba)
 3. 评估模型。调用crf_unit.py中的bio_classification_report方法，评估模型。
 
 ## TODO
