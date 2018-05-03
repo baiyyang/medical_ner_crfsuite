@@ -10,9 +10,8 @@ medical_ner_crfsuite是[CCKS2017全国知识图谱与语义大会](http://www.cc
 3. 评估模型。调用crf_unit.py中的bio_classification_report方法，评估模型。
 
 ## DEPENDENCY
-pycrfsuite：pip install python-crfsuite
-
-zhon：pip install zhon
+> pycrfsuite：pip install python-crfsuite
+> zhon：pip install zhon
 
 ## TODO
 1. 参考文献[Clinical Named Entity Recognition Method Based on CRF Yanxu Chen, Gang Zhang, Haizhou Fang, Bin He, Yi Guan](http://ceur-ws.org/Vol-1976/paper09.pdf)，提升模型准确率。
