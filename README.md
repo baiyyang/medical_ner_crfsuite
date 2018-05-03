@@ -11,6 +11,7 @@ medical_ner_crfsuite是[CCKS2017全国知识图谱与语义大会](http://www.cc
 
 ## DEPENDENCY
 pycrfsuite：pip install python-crfsuite
+
 zhon：pip install zhon
 
 ## TODO
